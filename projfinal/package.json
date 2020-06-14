@@ -1,0 +1,23 @@
+{
+  "name": "projfinal",
+  "version": "1.0.0",
+  "description": "Projeto Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "author": "Hugo Dias, Daniel Valerio, Pedro Veiga",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "minimist": "^1.2.5",
+    "mustache-express": "^1.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.12"
+  }
+}
